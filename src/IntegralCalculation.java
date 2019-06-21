@@ -1,6 +1,6 @@
 import java.util.function.DoubleUnaryOperator;
 
-public class IntegralCalculation {
+public class IntegralCalculationApp {
         public static void main(String[] args) {
             System.out.format("%.2f%n", integrate(x -> 1, 0, 10));
             System.out.format("%.2f%n", integrate(x -> x + 2, 0, 10));
