@@ -1,6 +1,6 @@
 import java.util.stream.IntStream;
 
-public class RandomStream {
+public class RandomStreamApp {
     public static void main(String[] args) {
         pseudoRandomStream(13).limit(5).forEach(System.out::println);
     }
